@@ -10,8 +10,6 @@ import { Counter } from "@/components/counter/Counter";
 export default function Home() {
   const time = Date.parse("May 6, 2024") - Date.now();
 
-  console.log("time", time);
-
   return (
     <main className="Home">
       <div className="Home__background">
