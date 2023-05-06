@@ -8,7 +8,7 @@ import Twitter from "../assets/twitter.svg?url";
 import { Counter } from "@/components/counter/Counter";
 
 export default function Home() {
-  const time = Date.parse("May 6, 2024") - Date.now();
+  const time = Date.parse("May 6, 2024") - new Date().toUTCString();
 
   return (
     <main className="Home">
