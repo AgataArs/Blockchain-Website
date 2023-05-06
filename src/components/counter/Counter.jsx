@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-export const Counter = ({ time }) => {
+export const Counter = ({time}) => {
   const [timer, setTimer] = useState(time);
 
   useEffect(() => {
@@ -14,21 +14,14 @@ export const Counter = ({ time }) => {
     };
   }, []);
 
-
   
-  let seconds = (timer / 1000),
-     minutes = (seconds / 60),
-     hours = (minutes / 60),
-     days = (hours / 24),
-     months = (days / 30),
-     years = (months / 12);
-
-   seconds %= 60;
-   minutes %= 60;
-   hours %= 24;
-   days %= 30;
-   months %= 12;
-   years %= 12;
+  const date = new Date(timer);
+  let seconds = (date.getSeconds()),
+     minutes = (date.getMinutes()),
+     hours = (date.getHours()),
+     days = (date.getDate() - 1),
+     months = (date.getMonth()),
+     years = (date.getFullYear() - 1970);
 
   return (
     <div>
