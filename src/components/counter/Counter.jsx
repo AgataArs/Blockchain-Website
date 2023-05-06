@@ -18,9 +18,9 @@ export const Counter = ({ time }) => {
   
   let seconds = (timer ),
      minutes = (seconds / 60),
-     hours = Math.floor(minutes / 60),
-     days = Math.floor(hours / 24),
-     months = Math.floor(days / 30);
+     hours = (minutes / 60),
+     days = (hours / 24),
+     months = (days / 30);
 
    seconds %= 60;
    minutes %= 60;
