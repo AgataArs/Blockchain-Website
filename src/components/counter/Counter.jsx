@@ -16,8 +16,8 @@ export const Counter = ({ time }) => {
 
 
   
-  let seconds = Math.floor(timer / 1000),
-     minutes = Math.floor(seconds / 60),
+  let seconds = (time / 1000),
+     minutes = (seconds / 60),
      hours = Math.floor(minutes / 60),
      days = Math.floor(hours / 24),
      months = Math.floor(days / 30);
