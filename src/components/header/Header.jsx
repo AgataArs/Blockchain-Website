@@ -1,8 +1,8 @@
 import "./header.scss";
 import Image from "next/image";
 import Logo from "../../assets/site_logo.png";
-import Navbar from "@/components /navbar";
-import Button from "@/components /button";
+import Navbar from "@/components/navbar";
+import Button from "@/components/button";
 
 //nazywanie klas cssowych po BEM
 export const Header = () => {

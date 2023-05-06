@@ -1,11 +1,11 @@
 "use client";
 import "./main-page.scss";
-import Header from "@/components /header";
+import Header from "@/components/header";
 import Image from "next/image";
 import bgImage from "../assets/bgimg11.jpg";
-import Button, { SocialButton } from "@/components /button";
+import Button, { SocialButton } from "@/components/button";
 import Twitter from "../assets/twitter.svg?url";
-import { Counter } from "@/components /counter/Counter";
+import { Counter } from "@/components/counter/Counter";
 
 export default function Home() {
   const time = Date.now() - Date.parse("May 6, 2024");
