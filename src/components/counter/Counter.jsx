@@ -26,7 +26,6 @@ export const Counter = ({ time }) => {
    minutes %= 60;
    hours %= 24;
    days %= 30;
-   months %= 12;
 
   return (
     <div>
