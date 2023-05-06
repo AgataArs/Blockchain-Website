@@ -14,7 +14,6 @@ export const Counter = ({time}) => {
     };
   }, []);
 
-  
   const date = new Date(timer);
   let seconds = (date.getSeconds()),
      minutes = (date.getMinutes()),
