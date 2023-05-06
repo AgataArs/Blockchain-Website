@@ -1,0 +1,76 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  color: white;
+  &__background {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    &-container {
+      display: flex;
+      flex-direction: column;
+    }
+    &-title {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+    }
+    &-buttons {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 30px;
+      button {
+        width: 140px;
+        height: 40px;
+      }
+    }
+    &-socials {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      gap: 10px;
+      height: 37px;
+      margin-bottom: 40px;
+    }
+    &-scrollDown {
+      display: flex;
+      align-items: center;
+      align-self: flex-start;
+      transform: rotate(-90deg);
+      top: -100px;
+      position: relative;
+      &::after {
+        content: "";
+        display: flex;
+        position: relative;
+        width: 60px;
+        height: 1px;
+        background: white;
+      }
+    }
+  }
+}

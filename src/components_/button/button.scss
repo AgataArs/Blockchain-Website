@@ -1,0 +1,47 @@
+.Button {
+  display: flex;
+  border-radius: 15px;
+  height: available;
+  border: none;
+  background: #10cb6c;
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+
+  transition: background 0.3s ease-in;
+  cursor: pointer;
+  &:hover {
+    background: #43c1a8;
+  }
+}
+
+.SocialButton {
+  display: flex;
+  border: 1px solid #73809d;
+  background: none;
+  border-radius: 25px;
+  width: 37px;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    border-color: white;
+    svg {
+      path {
+        fill: white;
+      }
+    }
+  }
+
+  svg {
+    transform: scale(0.7);
+    path {
+      transition: all 0.3s ease-in;
+      fill: #b1bed3;
+    }
+  }
+}
