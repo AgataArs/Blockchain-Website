@@ -15,7 +15,7 @@ export const Counter = ({ time }) => {
   }, []);
 
 
-  //TODO do przerobienia. wartosc w timer w milisekundach do przerobienia na sekundy minuty...
+  //TODO timer 
 
   // console.log("timer", timer);
   //
@@ -24,7 +24,6 @@ export const Counter = ({ time }) => {
   //   hours = Math.floor(minutes / 60),
   //   days = Math.floor(hours / 24),
   //   months = Math.floor(days / 30),
-  //   years = Math.floor(days / 365);
   //
   // seconds %= 60;
   // minutes %= 60;
