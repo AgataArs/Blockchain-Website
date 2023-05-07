@@ -4,8 +4,6 @@ const nextConfig = {
 		config.module.rules.push({
 			test: /\.svg$/,
 			use: ["@svgr/webpack"],
-			test: /\.mp4$/,
-			use: ["@mp4r/webpack"],
 		});
 
 		return config;
@@ -13,3 +11,13 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+const withVideos = require("next-videos");
+
+module.exports = withVideos({
+	basePath: "/v2",
+
+	webpack(config, options) {
+		return config;
+	},
+});

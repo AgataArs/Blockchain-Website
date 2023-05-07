@@ -1,8 +1,8 @@
 "use client";
 import "./main-page.scss";
 import Header from "@/components/header";
-import Video from "next-videos";
-import bwVideo from "../assets/bwvideo.mp4";
+import Image from "next/image";
+import videoBw from "../assets/bwvideo.mp4";
 import Button, { SocialButton } from "@/components/button";
 import Twitter from "../assets/twitter.svg?url";
 import Facebook from "../assets/facebook.svg?url";
@@ -17,7 +17,7 @@ export default function Home() {
 	return (
 		<main className='Home'>
 			<div className='Home__background'>
-				<Video src={bwVideo} fill />
+				<video src={videoBw} fill />
 			</div>
 
 			<div className='Home__content'>
