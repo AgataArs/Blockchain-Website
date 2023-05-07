@@ -32,7 +32,10 @@ export default function Home() {
             <SocialButton>
               <Twitter />
             </SocialButton>
-            <Facebook/>
+            <SocialButton>
+              <Facebook />
+            </SocialButton>
+            
             {/*<SocialButton>*/}
             {/*  <Twitter />*/}
             {/*</SocialButton>*/}
