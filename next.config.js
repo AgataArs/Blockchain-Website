@@ -12,12 +12,12 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-const withVideos = require("next-videos");
+// const withVideos = require("next-videos");
 
-module.exports = withVideos({
-	basePath: "/v2",
+// module.exports = withVideos({
+// 	basePath: "/v2",
 
-	webpack(config, options) {
-		return config;
-	},
-});
+// 	webpack(config, options) {
+// 		return config;
+// 	},
+// });
