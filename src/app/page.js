@@ -5,6 +5,7 @@ import Image from "next/image";
 import bgImage from "../assets/bgimg11.jpg";
 import Button, { SocialButton } from "@/components/button";
 import Twitter from "../assets/twitter.svg?url";
+import Facebook from "../assets/facebook.svg?url";
 import { Counter } from "@/components/counter/Counter";
 
 export default function Home() {
@@ -31,7 +32,7 @@ export default function Home() {
             <SocialButton>
               <Twitter />
             </SocialButton>
-            {/*  tutaj inne ikonki tylko import na gorze dolaczyc*/}
+            <Facebook/>
             {/*<SocialButton>*/}
             {/*  <Twitter />*/}
             {/*</SocialButton>*/}
