@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import "./counter.scss";
 
 export const Counter = ({time}) => {
+
+  <header className="Counter"> </header>
   const [timer, setTimer] = useState(time);
 
   useEffect(() => {
