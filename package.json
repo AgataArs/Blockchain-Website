@@ -20,9 +20,6 @@
 	},
 	"devDependencies": {
 		"@svgr/webpack": "^7.0.0",
-		"@mp4r/webpack": "^1.4.1",
 		"prettier": "^2.8.8"
 	}
 }
-
-
