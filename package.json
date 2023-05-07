@@ -1,25 +1,28 @@
 {
-  "name": "demo-website",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "classnames": "^2.3.2",
-    "eslint": "8.40.0",
-    "eslint-config-next": "13.4.1",
-    "next": "13.4.1",
-    "next-videos": "^1.4.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass": "^1.62.1"
-  },
-  "devDependencies": {
-    "@svgr/webpack": "^7.0.0",
-    "prettier": "^2.8.8"
-  }
+	"name": "demo-website",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"classnames": "^2.3.2",
+		"eslint": "8.40.0",
+		"eslint-config-next": "13.4.1",
+		"next": "13.4.1",
+		"next-videos": "^1.4.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"sass": "^1.62.1"
+	},
+	"devDependencies": {
+		"@svgr/webpack": "^7.0.0",
+		"@mp4r/webpack": "^1.4.1",
+		"prettier": "^2.8.8"
+	}
 }
+
+

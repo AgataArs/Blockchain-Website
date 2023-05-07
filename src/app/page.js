@@ -1,7 +1,7 @@
 "use client";
 import "./main-page.scss";
 import Header from "@/components/header";
-import Video from "next/videos";
+import Video from "next-videos";
 import bwVideo from "../assets/bwvideo.mp4";
 import Button, { SocialButton } from "@/components/button";
 import Twitter from "../assets/twitter.svg?url";
