@@ -2,7 +2,7 @@
 import "./main-page.scss";
 import Header from "@/components/header";
 import Image from "next/image";
-import videoBw from "../assets/bwvideo.mp4";
+import videoBw from "../assets/backgrVideo.mp4";
 import Button, { SocialButton } from "@/components/button";
 import Twitter from "../assets/twitter.svg?url";
 import Facebook from "../assets/facebook.svg?url";
