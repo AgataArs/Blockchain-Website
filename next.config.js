@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+
+const withVideos = require("next-videos");
+
+module.exports = withVideos({
+	basePath: "",
+
 	webpack(config) {
 		config.module.rules.push({
 			test: /\.svg$/,
@@ -8,16 +13,4 @@ const nextConfig = {
 
 		return config;
 	},
-};
-
-module.exports = nextConfig;
-
-// const withVideos = require("next-videos");
-
-// module.exports = withVideos({
-// 	basePath: "/v2",
-
-// 	webpack(config, options) {
-// 		return config;
-// 	},
-// });
+});
