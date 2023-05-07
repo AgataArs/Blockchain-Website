@@ -12,13 +12,13 @@
   transition: background 0.3s ease-in;
   cursor: pointer;
   &:hover {
-    background: #43c1a8;
+    background: #4ca794;
   }
 }
 
 .SocialButton {
   display: flex;
-  border: 1px solid #73809d;
+  border: 1px solid #88919e;
   background: none;
   border-radius: 25px;
   width: 37px;
@@ -37,11 +37,4 @@
     }
   }
 
-  svg {
-    transform: scale(0.7);
-    path {
-      transition: all 0.3s ease-in;
-      fill: #b1bed3;
-    }
-  }
-}
+ }
