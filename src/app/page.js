@@ -6,9 +6,9 @@ import bgImage from "../assets/bgimg11.jpg";
 import Button, { SocialButton } from "@/components/button";
 import Twitter from "../assets/twitter.svg?url";
 import Facebook from "../assets/facebook.svg?url";
-import Facebook from "../assets/telegram.svg?url";
-import Facebook from "../assets/youtube.svg?url";
-import Facebook from "../assets/bitcoin.svg?url";
+import Telegram from "../assets/telegram.svg?url";
+import Youtube from "../assets/youtube.svg?url";
+import Bitcoin from "../assets/bitcoin.svg?url";
 import { Counter } from "@/components/counter/Counter";
 
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
             <Button>Onepager</Button>
           </div>
           <div className="Home__content-socials">
-            
+
             <SocialButton>
               <Twitter />
             </SocialButton>
