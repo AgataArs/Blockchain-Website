@@ -64,13 +64,18 @@
       top: -100px;
       position: relative;
       &::after {
-        content: " ";
+        content: space-between" ";
         display: flex;
         position: relative;
         width: 60px;
         height: 1px;
         background: white;
       }
+    }
+    &-counter{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 }
