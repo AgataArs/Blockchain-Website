@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import "./counter.scss";
 
 export const Counter = ({time}) => {
   const [timer, setTimer] = useState(time);
